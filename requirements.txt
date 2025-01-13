@@ -5,7 +5,9 @@
 #    pip-compile pyproject.toml
 #
 aiohappyeyeballs==2.4.4
-    # via aiohttp
+    # via
+    #   aiohttp
+    #   dsrag (pyproject.toml)
 aiohttp==3.11.11
     # via
     #   dsrag (pyproject.toml)
@@ -299,7 +301,9 @@ mdurl==0.1.2
     #   dsrag (pyproject.toml)
     #   markdown-it-py
 milvus-lite==2.4.11
-    # via pymilvus
+    # via
+    #   dsrag (pyproject.toml)
+    #   pymilvus
 mmh3==5.0.1
     # via
     #   chromadb
@@ -424,9 +428,12 @@ parameterized==0.9.0
 pinecone==5.4.2
     # via dsrag (pyproject.toml)
 pinecone-plugin-inference==3.1.0
-    # via pinecone
+    # via
+    #   dsrag (pyproject.toml)
+    #   pinecone
 pinecone-plugin-interface==0.0.7
     # via
+    #   dsrag (pyproject.toml)
     #   pinecone
     #   pinecone-plugin-inference
 portalocker==2.10.1
@@ -440,6 +447,7 @@ posthog==3.7.0
 propcache==0.2.1
     # via
     #   aiohttp
+    #   dsrag (pyproject.toml)
     #   yarl
 protobuf==4.25.5
     # via
@@ -548,7 +556,9 @@ requests-oauthlib==2.0.0
     #   dsrag (pyproject.toml)
     #   kubernetes
 requests-toolbelt==1.0.0
-    # via langsmith
+    # via
+    #   dsrag (pyproject.toml)
+    #   langsmith
 rich==13.7.1
     # via
     #   dsrag (pyproject.toml)
@@ -655,7 +665,9 @@ tzdata==2024.1
     #   dsrag (pyproject.toml)
     #   pandas
 ujson==5.10.0
-    # via pymilvus
+    # via
+    #   dsrag (pyproject.toml)
+    #   pymilvus
 urllib3==2.3.0
     # via
     #   botocore
@@ -688,7 +700,7 @@ websocket-client==1.8.0
     # via
     #   dsrag (pyproject.toml)
     #   kubernetes
-websockets==14.1
+websockets==14.0
     # via
     #   dsrag (pyproject.toml)
     #   uvicorn
